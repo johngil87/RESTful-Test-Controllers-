@@ -80,7 +80,7 @@ public class WidgetRestController {
 
         // Update the widget
         widget.setId(id);
-        widget = widgetService.save(widget);
+        widgetService.save(widget);
 
         try {
             // Return a 200 response with the updated widget
